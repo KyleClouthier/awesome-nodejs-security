@@ -59,10 +59,12 @@ A curated list of awesome Node.js Security resources.
 - [nis2-express-middleware](https://github.com/nis2shield/express-nis2-middleware) - Comprehensive Express.js middleware for EU NIS2 compliance (logging, active defense, and secure defaults).
 - [nuxt-security](https://github.com/Baroshem/nuxt-security) - 🛡 Security Module for Nuxt based on OWASP Top 10 and Helmet.
 - [reporting-api](https://github.com/wille/reporting-api) - Express middleware to collect CSP, COOP/COEP, Permissions-Policy, NEL, crash and deprecation reports (Reporting API v0/v1 and legacy report-uri).
+- [agentdecoy](https://www.npmjs.com/package/agentdecoy) - Deception middleware for Express, Next.js, Cloudflare Workers and Firebase that serves fake .env files, AI API keys and MCP configs at the paths scanners probe, logs who takes them, and refuses logins and form posts from addresses caught using them.
 
 ## GitHub Actions and CI/CD Security
 - [New dependencies advisor](https://github.com/marketplace/actions/new-dependencies-advisor) - GitHub Action adding comments to pull requests with package health information about newly added npm dependencies.
 - [OpenSSF Scorecard Monitor](https://github.com/marketplace/actions/openssf-scorecard-monitor) - Simplify OpenSSF Scorecard tracking in your organization with automated markdown and JSON reports, plus optional GitHub issue alerts.
+- [AgentDecoy scan](https://github.com/marketplace/actions/agentdecoy-scan) - GitHub Action that flags committed .env files, AI API keys and MCP configs with tokens before they reach a public repo, and can scan the live site for exposed AI tool configs.
 
 ## Static Code Analysis
 - [eslint-plugin-security](https://www.npmjs.com/package/eslint-plugin-security) - ESLint rules for Node Security. This project will help identify potential security hotspots, but finds a lot of false positives which need triage by a human.
